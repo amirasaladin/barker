@@ -13,12 +13,11 @@ body {
 
 /*Navigation section*/
 .navbar {
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.5);
 }
 .navbar-brand img{
     height: 2rem;
 }
-
 
 @media (max-width: 768px) {
     .logo-center {
@@ -93,7 +92,7 @@ body {
 
 /*about section*/
 #about {
-    height: 50vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -248,6 +247,9 @@ body {
 /*End of opening hours section*/
 
 /*contact us*/
+#contact {
+    height:90vh;
+}
 
 #contact .location {
     display: flex;
@@ -272,7 +274,7 @@ body {
 /*footer*/
 #footer {
     background-color: var(--light-shade);
-    height: 4rem;
+    height: 10vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
